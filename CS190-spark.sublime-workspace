@@ -1,0 +1,465 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"e",
+				"email"
+			],
+			[
+				"user",
+				"username"
+			],
+			[
+				"an",
+				"answer"
+			],
+			[
+				"req",
+				"requests"
+			],
+			[
+				"store",
+				"stored_gplus_id"
+			],
+			[
+				"acce",
+				"access_token"
+			],
+			[
+				"acc",
+				"access_token"
+			],
+			[
+				"one",
+				"one-time-code"
+			],
+			[
+				"clien",
+				"client_secrets"
+			],
+			[
+				"method",
+				"methods"
+			],
+			[
+				"auth",
+				"authResult"
+			],
+			[
+				"login",
+				"login_session"
+			],
+			[
+				"hei",
+				"height"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"wd",
+				"width"
+			],
+			[
+				"min-",
+				"min-width"
+			],
+			[
+				"i",
+				"id"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"closes",
+				"closest"
+			],
+			[
+				"anagr",
+				"anagram_list"
+			],
+			[
+				"nam",
+				"name"
+			],
+			[
+				"deli",
+				"delicious"
+			],
+			[
+				"original",
+				"original_word"
+			],
+			[
+				"fet",
+				"fetch"
+			],
+			[
+				"origi",
+				"original_words"
+			],
+			[
+				"orig",
+				"original_word"
+			],
+			[
+				"ana",
+				"anagram"
+			],
+			[
+				"ord",
+				"ordered_word"
+			],
+			[
+				"word",
+				"words_with_ordered_letters"
+			],
+			[
+				"wor",
+				"words_with_ordered_letters"
+			],
+			[
+				"winner",
+				"winner_list"
+			],
+			[
+				"rps",
+				"rps_game_winner"
+			],
+			[
+				"assert",
+				"assert_equal"
+			],
+			[
+				"bet",
+				"bet2"
+			],
+			[
+				"count",
+				"count_doobee_expected"
+			],
+			[
+				"co",
+				"count_expected_panama"
+			],
+			[
+				"count_w",
+				"test_count_words"
+			],
+			[
+				"revers",
+				"reversed_string"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"lint",
+				"Set Syntax: Regular Expressions (Python)"
+			],
+			[
+				"python",
+				"Set Syntax: Python"
+			],
+			[
+				"pyth",
+				"Set Syntax: Python"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 476.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/islomar/Techie/workspace/udacity-oauth/oauth/project.py",
+		"/Users/islomar/Techie/workspace/udacity-oauth/templates/login.html",
+		"/Users/islomar/Techie/workspace/udacity-oauth/client_secrets.json",
+		"/Users/islomar/Techie/workspace/udacity-oauth/README.md",
+		"/Users/islomar/Techie/workspace/udacity-oauth/templates/menu.html",
+		"/Users/islomar/Techie/workspace/udacity-oauth/templates/restaurants.html",
+		"/Users/islomar/Techie/workspace/udacity-oauth/templates/header.html",
+		"/Users/islomar/Techie/workspace/udacity-oauth/templates/main.html",
+		"/Users/islomar/Library/Application Support/Sublime Text 2/Packages/Git/Git.sublime-settings",
+		"/Users/islomar/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/islomar/Techie/workspace/poc-ios/try-iOS/IPhone.m",
+		"/Users/islomar/Techie/workspace/poc-javascript/codeschool-javascript-best-practices/level3-the-crystal-of-caution/dhuun.js",
+		"/Users/islomar/Techie/workspace/poc-javascript/codeschool-javascript-best-practices/level2-perfomance/proto.js",
+		"/Users/islomar/Techie/workspace/poc-javascript/codeschool-javascript-best-practices/level2-perfomance/speedTest.js",
+		"/Users/islomar/Techie/workspace/poc-javascript/codeschool-javascript-best-practices/level3-the-crystal-of-caution/index.html",
+		"/Users/islomar/Techie/workspace/poc-javascript/codeschool-javascript-best-practices/level2-perfomance/index.html",
+		"/Users/islomar/Techie/workspace/poc-javascript/codeschool-javascript-best-practices/level3-the-crystal-of-caution/instanceof-example.js",
+		"/Users/islomar/Techie/workspace/poc-javascript/codeschool-javascript-best-practices/exercise-2.27/proto.js",
+		"/Users/islomar/Techie/workspace/poc-javascript/codeschool-javascript-best-practices/exercise-2.27/speedTest.js",
+		"/Users/islomar/Techie/workspace/poc-javascript/codeschool-javascript-best-practices/exercise-2.27/index.html",
+		"/Volumes/Verbatim/Techie/SoftwareDevelopment/Frontend/Curso Floqq - Git y Frontend/ResponsiveWebDesign/index.html",
+		"/Users/islomar/Dropbox/Desarrollo/Frontend/CSS/Codeschool/floqq-video73.html",
+		"/Users/islomar/development/javascript/jQuery/jquery-helloworld.js",
+		"/Users/islomar/development/javascript/jQuery/codeschool-working-with-dom.js",
+		"/Users/islomar/development/javascript/jQuery/keyboard-events.js",
+		"/Users/islomar/development/javascript/jQuery/animation.js",
+		"/Users/islomar/Library/Application Support/Spotify/Spotify_new.archive.sig",
+		"/Users/islomar/development/javascript/jQuery/animation.htm",
+		"/Users/islomar/development/javascript/jQuery/link-layover.html",
+		"/Users/islomar/development/javascript/jQuery/link-layover.js",
+		"/Users/islomar/development/javascript/jQuery/taming-css.js",
+		"/Users/islomar/development/javascript/jQuery/taming-css.htm",
+		"/Users/islomar/development/javascript/jQuery/keyboard-events.htm",
+		"/Users/islomar/development/javascript/jQuery/tour.htm",
+		"/Users/islomar/development/javascript/jQuery/jquery-helloworld.htm",
+		"/Users/islomar/development/javascript/jQuery/codeschool-working-with-dom.htm",
+		"/Users/islomar/Dropbox/MisCosas/empleo/Ventura24/Hamburgo/Alemania/Hamburg_Subdivisions.svg",
+		"/Users/islomar/Dropbox/MisCosas/Cursos y certificados/MongoDB/edu_10gen_dl-master/config.py",
+		"/Users/islomar/workspaces/codingdojo-js-ing/jasmine-standalone-1.3.1/spec/PlayerSpec.js",
+		"/Users/islomar/workspaces/codingdojo-js-ing/jasmine-standalone-1.3.1/spec/SpecHelper.js",
+		"/Users/islomar/workspaces/codingdojo-js-ing/jasmine-standalone-1.3.1/SpecRunner.html",
+		"/Users/islomar/Dropbox/MisCosas/empleo/Ventura24/Hamburgo/Hamburg_Subdivisions.svg",
+		"/Users/islomar/workspaces/codingdojo-js-ing/jasmine-standalone-1.3.1/spec/TodoListSpec.js",
+		"/Users/islomar/development/javascript/Jasmine/jasmine-standalone-1.3.1/SpecRunner.html",
+		"/Users/islomar/Library/Application Support/Sublime Text 2/Packages/SideBarEnhancements/messages/11.13.2012.1305.0.txt",
+		"/Users/islomar/development/javascript/Meerkat/prueba_meerkat/js/jquery.min.js",
+		"/Users/islomar/development/javascript/Meerkat/prueba_meerkat/js/jquery.meerkat.1.3.min.js",
+		"/Users/islomar/development/javascript/Meerkat/prueba_meerkat/prueba_meerkat_comentada.html",
+		"/Users/islomar/development/javascript/Meerkat/prueba_meerkat/images/transparent_banner.png",
+		"/Users/islomar/workspaces/bigdata/hw3-test",
+		"/Users/islomar/workspaces/bigdata/bigdata-hw3.py",
+		"/Users/islomar/workspaces/bigdata/hw3data/p0001",
+		"/Users/islomar/workspaces/bigdata/hw3data/bigdata-hw3.py",
+		"/Users/islomar/workspaces/bigdata/octo.py",
+		"/Users/islomar/workspaces/bigdata/wordcount.py",
+		"/Users/islomar/workspaces/bigdata/triangular.py",
+		"/Users/islomar/Dropbox/MisCosas/Cursos y certificados/Software Engineering for SaaS/workspace/homework1/hw1-1.rb",
+		"/Users/islomar/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/islomar/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/islomar/Library/Application Support/Sublime Text 2/Packages/User/SublimeLinter.sublime-settings",
+		"/Users/islomar/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/islomar/Library/Application Support/Sublime Text 2/Packages/User/Package Control.sublime-settings",
+		"/Users/islomar/Dropbox/MisCosas/Cursos y certificados/Software Engineering for SaaS/workspace/homework1/hw1-5-test.rb",
+		"/Users/islomar/Dropbox/MisCosas/Cursos y certificados/Software Engineering for SaaS/workspace/homework1/hw1-4-test.rb",
+		"/Users/islomar/Dropbox/MisCosas/Cursos y certificados/Software Engineering for SaaS/workspace/homework1/hw1-3-test.rb",
+		"/Users/islomar/Dropbox/MisCosas/Cursos y certificados/Software Engineering for SaaS/workspace/homework1/hw1-3.rb",
+		"/Users/islomar/Dropbox/MisCosas/Cursos y certificados/Software Engineering for SaaS/workspace/homework1/hw1-2-test.rb",
+		"/Users/islomar/Dropbox/MisCosas/Cursos y certificados/Software Engineering for SaaS/workspace/homework1/hw1-2.rb",
+		"/Users/islomar/Dropbox/MisCosas/Cursos y certificados/Software Engineering for SaaS/workspace/homework1/hw1-1-test.rb",
+		"/Users/islomar/Dropbox/MisCosas/Cursos y certificados/Software Engineering for SaaS/workspace/homework1/hw1-4.rb",
+		"/Users/islomar/Dropbox/Desarrollo/JavaScript/Head First JavaScript/JS examples/chapter05/mandango/mandango5.html",
+		"/Users/islomar/Dropbox/Desarrollo/JavaScript/Head First JavaScript/JS examples/chapter05/mandango/mandango1.html",
+		"/Users/islomar/Dropbox/Desarrollo/JavaScript/Head First JavaScript/JS examples/chapter05/mandango/mandango2.html",
+		"/Users/islomar/Dropbox/Desarrollo/JavaScript/Head First JavaScript/JS examples/chapter05/mandango/mandango3.html",
+		"/Users/islomar/Dropbox/Desarrollo/JavaScript/Head First JavaScript/JS examples/chapter05/mandango/mandango4.html",
+		"/Users/islomar/Dropbox/Desarrollo/JavaScript/Head First JavaScript/JS examples/chapter04/sfa/sfa1.html",
+		"/Users/islomar/Dropbox/Desarrollo/JavaScript/Head First JavaScript/JS examples/chapter02/donuts/donuts.php",
+		"/Users/islomar/Dropbox/Desarrollo/JavaScript/Head First JavaScript/JS examples/chapter02/donuts/donuts5.html",
+		"/Users/islomar/Dropbox/Desarrollo/JavaScript/Head First JavaScript/JS examples/chapter03/irock/irock4.html",
+		"/Users/islomar/Dropbox/Desarrollo/JavaScript/Head First JavaScript/JS examples/chapter03/irock/irock6.html",
+		"/Users/islomar/Dropbox/Desarrollo/JavaScript/Head First JavaScript/JS examples/chapter02/donuts/donuts3.html",
+		"/Users/islomar/Dropbox/Desarrollo/JavaScript/Head First JavaScript/JS examples/chapter02/donuts/donuts4.html",
+		"/Users/islomar/Dropbox/Desarrollo/JavaScript/Head First JavaScript/JS examples/chapter02/donuts/donuts1.html",
+		"/Users/islomar/Dropbox/Desarrollo/JavaScript/Head First JavaScript/JS examples/chapter01/irock/irock1.html",
+		"/Users/islomar/Dropbox/Desarrollo/JavaScript/Head First JavaScript/JS examples/chapter01/irock/myIrock1.html",
+		"/Users/islomar/Dropbox/Desarrollo/JavaScript/Head First JavaScript/JS examples/chapter01/irock/irock2.html",
+		"/Users/islomar/Dropbox/Desarrollo/JavaScript/Head First JavaScript/JS examples/chapter01/irock/irock3.html",
+		"/Users/islomar/Dropbox/Desarrollo/JavaScript/Head First JavaScript/JS examples/chapter01/house/housematches.html",
+		"/Users/islomar/Dropbox/Desarrollo/JavaScript/Head First JavaScript/JS examples/chapter01/house/house3.html",
+		"/Users/islomar/Dropbox/Desarrollo/JavaScript/Head First JavaScript/JS examples/chapter01/house/house2.html",
+		"/Users/islomar/Dropbox/Desarrollo/JavaScript/Head First JavaScript/JS examples/chapter01/house/house1.html",
+		"/Users/islomar/workspaces/phonegapp/Popurri/src/Prueba1.java"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"response_type",
+			"scope",
+			"client_secrets",
+			"oauth2server.com",
+			"oauth2server.com/auth",
+			"https://oauth2server.com/auth",
+			"you are now logged",
+			"get_flashed_messages",
+			"you are now",
+			"You are now",
+			"you are now",
+			"print",
+			"define",
+			"provider",
+			"bootstrap",
+			"getDbPropertiesFile",
+			"setEclipseLinkProperties",
+			"768px",
+			"></",
+			"my_words"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 244.0
+	},
+	"output.find_results":
+	{
+		"height": 310.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 315.0,
+	"status_bar_visible": true
+}
