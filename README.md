@@ -8,7 +8,7 @@ Self-assessment document: http://www.cs.ucla.edu//~ameet/self_assessment.pdf
 
 
 ## Python tutorial
-See [python-tutorial.md](this Python tutorial)
+See [this Python tutorial](python-tutorial.md)
 
 
 ## Basics
@@ -56,4 +56,4 @@ xxx
 
 ## Week 1: course overview and Machine Learning basics
 
-See [week-1.md](the notes for Week 1).
+See [the notes for Week 1](week-1.md).
