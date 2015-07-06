@@ -8,7 +8,7 @@ Self-assessment document: http://www.cs.ucla.edu//~ameet/self_assessment.pdf
 
 
 ## Python tutorial: http://ai.berkeley.edu/tutorial.html#PythonBasics
-Poner la referencia a python-tutorial.md  
+See [python-tutorial.md](this Python tutorial)
 
 
 ## Basics
@@ -56,4 +56,4 @@ xxx
 
 ## Week 1: course overview and Machine Learning basics
 
-Link a week-1.md
+See [week-1.md](the notes for Week 1).
