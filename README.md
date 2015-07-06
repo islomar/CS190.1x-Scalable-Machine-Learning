@@ -7,7 +7,7 @@ https://www.edx.org/course/scalable-machine-learning-uc-berkeleyx-cs190-1x
 Self-assessment document: http://www.cs.ucla.edu//~ameet/self_assessment.pdf
 
 
-## Python tutorial: http://ai.berkeley.edu/tutorial.html#PythonBasics
+## Python tutorial
 See [python-tutorial.md](this Python tutorial)
 
 
