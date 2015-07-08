@@ -50,10 +50,13 @@ Your submission token ID is 1371738-d0344b420b6f6f5077f586bf60d9f6fc:ip-172-31-2
 Please include this submission token ID when you need support for your code submission.
 Your anonymous student ID is 1c616bd6f939d5ea01250f7941e90167. Do not post this ID on Piazza.
 
-xxx
-
 
 
 ## Week 1: course overview and Machine Learning basics
 
 See [the notes for Week 1](week-1.md).
+
+
+## Week 2: introduction to Apache Spark
+
+See [the notes for Week 2](week-2.md).
