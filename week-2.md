@@ -28,6 +28,23 @@ Map Reduce deals with failures and slow tasks by re-launching the tasks on other
 * Using Map Reduce for complex jobs, interactive queries and online processing involves lots of disk I/O!
 
 ## Technology trends and an opportunity
+The cost of memory has dropped A LOT: 1 cent/MB.
+Opportunity:
+* Keep more data in-memory instead of writing it out to slow disks and then having to read it.
+* Spark: distributed execution engine, use memory instead of disk!!
+** Use memory for in-data sharing.
+* RDDs: Resilient Distributed Datasets.
+
+* Spark framework:
+** Core Apache Spark
+** Spark SQL
+** Spark Streaming
+** MLib (machine learning)
+** GraphX (graphical computing library)
+
 Using memory instead of disks offers two huge benefits. The first benefit is that memory is much faster than disks. The time to read or write a value to memory is only a few nanoseconds, while the time to read or write is several milliseconds - that means memory is a million times faster than disks. The second benefit is that keeping intermediate results in memory means that they do not have to be converted into a format that can be stored on disks. The process of converting a memory object to a disk object is called serialization and the process of converting a disk object to a memory object is called deserialization. Serializing and deserializing objects is a very expensive and time consuming process. Keeping intermediate results in memory avoids this significant overhead.
 
 Taken together, the faster access times and avoidance of serialization/deserialization overhead make Spark much faster than Map Reduce - up to 100 times faster!
+
+
+## Spark and Map-Reduce differences
