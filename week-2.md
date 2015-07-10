@@ -3,6 +3,12 @@
 ## Interesting links
 * http://aws.amazon.com/elasticmapreduce/
 * http://people.csail.mit.edu/matei/papers/2010/hotcloud_spark.pdf
+* https://databricks.com/blog/2014/11/05/spark-officially-sets-a-new-record-in-large-scale-sorting.html
+* MLlib: Machine Learning in Apache Spark: http://arxiv.org/pdf/1505.06807.pdf
+
+* Spark documentation: https://spark.apache.org/documentation.html
+* Spark Programming guide: https://spark.apache.org/docs/latest/programming-guide.html
+
 
 ## The Big Data problem
 A single machine can no longer process or even store all the data!"
@@ -47,4 +53,82 @@ Using memory instead of disks offers two huge benefits. The first benefit is tha
 Taken together, the faster access times and avoidance of serialization/deserialization overhead make Spark much faster than Map Reduce - up to 100 times faster!
 
 
-## Spark and Map-Reduce differences
+## Python Spark (pySpark)
+RDDs are a key concept.
+A Spark program is two programs: A driver program and a workers program. 
+* Worker programs run on cluster nodes or in local threads.
+* RDDs are distributed across the workers.
+* First of all, create a SparkContext: Tells Spark how and where to access a cluster
+* Use SparkContext to create RDDs.
+
+For more information about Apache Spark, you should refer to the online Spark Documentation. The documentation includes screencasts, training materials, and hands-on exercises. The Spark Programming Guide is anothe good starting point, and the pySpark API documentation is a great reference to use when writing Spark programs.
+
+## Resilient Distributed Datasets
+* It's the first abstraction in Spark.
+* They are immutable once constructed.
+* Data lineage: following the life-cycle of the data.
+* Programmer specifies the number of a partitions for an RDD: the more partitions, the more parallelism.
+* There are two types of operations: transformations (e.g. map, filter, distinct, flatMap) and actions (e.g. collect, count).
+* Lazy evaluation: results are not computed right away. We are creating a recipe for creating a result.
+* RDDs cannot be changed once they are created - they are immutable. You can create RDDs by applying transformations to existing RDDs and Spark automatically tracks how you create and manipulate RDDs (their lineage) so that it can reconstruct any data that is lost due to slow or failed machine. Operations on RDDs are performed in parallel.
+
+## Transformations
+Spark Transformations use lazy evaluation, which means they are not immediately executed. Instead they can be thought of as a recipe for creating a result from an input dataset.
+
+## Spark Actions
+* Cause Spark to execute recipe to transform source.
+* Mechanism for getting results out of Spark.
+* Actions: reduce, take, collect, takeOrdered.
+* Spark Actions are the mechanism for causing Spark to apply the specified set of transformations to the source data. They are the way that you extract the results out of Spark at the driver.
+
+## Caching RDDs
+* Every time you perform an action, ALL the data is reloaded from the partitions. 
+* In order to avoid that, you can cache the RDDs. That way, you load from memory, not from disk (slide 27 from week2b).
+
+## Spark program lifecycle
+1. Create RDDs from external data or parallelize a collection in your driver program
+2. Lazily transform them into new RDDs
+3. cache() some RDDs for reuse
+4. Perform actions to execute parallel computation and produce results
+
+## Spark key-value RDDs
+Key-value transformations:
+* reduceByKey()
+* sortByKey()
+* groupByKey(): Be careful using groupByKey() as it can cause a lot of data movement across the network and create large Iterables at workers.
+
+## pySpark closures
+Spark automatically creates closures for:
+* Functions that run on RDDs at workers
+* Any global variables used by those workers
+
+One closure per worker
+* Sent for every task
+* No communication between workers
+* Changes to global variables at workers are not sent to driver
+
+pySpark shared variables:
+* Broadcast variables:
+** Sent from the driver to the workers.
+** Sent only once to each worker, not once per task.
+** Keep read-only variables cached at workers.
+
+In broadcasting, a call-sign is a unique designation for a transmitting station.
+
+
+* Accumulators
+* Variables that can only be “added” to by associative op
+* Used to efficiently implement parallel counters and sums
+* Only driver can read an accumulator’s value, not tasks
+
+## Summary
+So in summary, when you write a Spark program, use the master parameter to specify the number of workers.
+When you create an RDD, you can specify the number of partitions for that RDD, and Spark will automatically create that RDD spread across the workers.
+When you perform transformations and actions that use functions, Spark will automatically push a closure containing that function to the workers so that it can run at the workers.
+
+## Lab 2
+1. Spark tutorial
+https://raw.githubusercontent.com/spark-mooc/mooc-setup/master/spark_tutorial_student.ipynb
+
+2. Word count
+https://raw.githubusercontent.com/spark-mooc/mooc-setup/master/ML_lab2_word_count_student.ipynb
