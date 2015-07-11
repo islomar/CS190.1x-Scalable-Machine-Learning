@@ -60,3 +60,8 @@ See [the notes for Week 1](week-1.md).
 ## Week 2: introduction to Apache Spark
 
 See [the notes for Week 2](week-2.md).
+
+
+## Week 3: Linear Regression and distributed ML principles
+
+See [the notes for Week 3](week-3.md).
